@@ -21,10 +21,10 @@ public class DrawPanel extends JPanel{
             this.clouds.add(new Cloudy(Utils.getRandom(0, 1), Utils.getRandom(0, 1./3),  2));
         }
         for(int i = 0; i < Utils.getRandom(30, 45); i++) {
-            this.firs.add(new OneFir(Utils.getRandom(0, 0.5), Utils.getRandom(1./3, 1)));
+            this.firs.add(new OneFir(Utils.getRandom(0, 0.45), Utils.getRandom(1./3, 1)));
         }
         for(int i = 0; i < Utils.getRandom(40, 45); i++) {
-            this.trees.add(new OneTree(Utils.getRandom(0.5, 0.8), Utils.getRandom(1./3, 1)));
+            this.trees.add(new OneTree(Utils.getRandom(0.55, 0.8), Utils.getRandom(1./3, 1)));
         }
 
         this.clouds.add(new Cloudy(1./3, 1./12, 2));
